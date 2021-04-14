@@ -1,0 +1,36 @@
+{
+  "name": "node-1",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "gadd": "git add -A",
+    "gcm": "git commit -m",
+    "gp": "git push origin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrHrubyi/node-js-1.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Hrubyi Oleksandr <ghrubyi@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrHrubyi/node-js-1/issues"
+  },
+  "homepage": "https://OleksandrHrubyi.github.io/node-js-1/",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^7.2.0",
+    "shortid": "^2.2.16"
+  }
+}
